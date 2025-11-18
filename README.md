@@ -1,4 +1,4 @@
-# 🔐 Servidor OpenVPN Profesional en AWS (Debian 13)
+# 🔐 Servidor OpenVPN Profesional en AWS
 
 [![Debian](https://img.shields.io/badge/Debian-13%20Trixie-A81D33?logo=debian)](https://www.debian.org/)
 [![OpenVPN](https://img.shields.io/badge/OpenVPN-2.6+-EA7E20?logo=openvpn)](https://openvpn.net/)
