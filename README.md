@@ -255,8 +255,8 @@ Las contribuciones son bienvenidas. Por favor:
 
 **Fernando** - Estudiante ASIR (Administración de Sistemas Informáticos en Red)
 
-📧 Contacto: [ferdurave@gmail.com  
-🔗 LinkedIn: [Fernando Durán  
+📧 Contacto: ferdurave@gmail.com  
+🔗 LinkedIn: Fernando Durán  
 📁 GitHub: [@Nando-Asir](https://github.com/Nando-Asir)
 
 ---
