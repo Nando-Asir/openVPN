@@ -408,3 +408,13 @@ Debería mostrar la IP pública de tu servidor AWS, confirmando que todo el trá
 ## 📝 Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+
+---
+
+<div align="center">
+
+### ⭐ Si este proyecto te resultó útil, considera darle una estrella en GitHub
+
+**[⬆ Volver al README](#README.md)**
+
+</div>
