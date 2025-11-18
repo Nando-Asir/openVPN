@@ -360,6 +360,11 @@ scp -i C:\ruta\a\tu\clave-aws.pem admin@X.X.X.X:/etc/openvpn/server/easy-rsa/cli
 sudo openvpn --config cliente_portatil.ovpn
 ```
 
+### En macOS:
+1. Instala **Tunnelblick**.
+2. Importa el archivo `.ovpn`.
+3. Conecta desde la aplicación.
+
 ### En Android / iOS:
 1. Instala la app `OpenVPN Connect`.
 2. Transfiere el archivo `.ovpn` al dispositivo.
@@ -367,11 +372,6 @@ sudo openvpn --config cliente_portatil.ovpn
 
 > [!WARNING]
 > En el archivo .ovp que transfieres al dispositivo android o iOS, es necesario modificar la línea *tls-auth [ta.key] 1* y cambiarla por *key-direction 1*.
-
-### En macOS:
-1. Instala **Tunnelblick**.
-2. Importa el archivo `.ovpn`.
-3. Conecta desde la aplicación.
 
 ---
 
