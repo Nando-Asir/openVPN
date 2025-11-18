@@ -289,6 +289,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ### ⭐ Si este proyecto te resultó útil, considera darle una estrella en GitHub
 
-**[⬆ Volver arriba](#-servidor-openvpn-profesional-en-aws-debian-13)**
+**[⬆ Volver arriba](#-servidor-openvpn-profesional-en-aws)**
 
 </div>
