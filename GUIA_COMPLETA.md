@@ -187,8 +187,11 @@ En AWS, la interfaz pública es típicamente **eth0**. Usaremos **iptables** par
 ```bash
 sudo nano /etc/sysctl.conf
 net.ipv4.ip_forward=1
-sudo sysctl -p
 ```
+
+```bash
+sudo sysctl -p
+``
 
 ### 6.2 Configurar IPTABLES y NAT (Masquerade)
 
