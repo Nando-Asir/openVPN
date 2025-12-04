@@ -97,6 +97,9 @@ El puerto 80 debe estar abierto en el Grupo de Seguridad.
 sudo certbot certonly --standalone -d vpn.midominio.com
 ```
 
+> [!WARNING]
+> El dominio es el dominio de AWS que hay que convertirlo a través de NoIP.com. Ahí creamos un nuevo DNS y ponerlo de la siguiente manera: A (dominio_de_no_ip) y la IP Pública de AWS.
+
 Acepta los términos y proporciona una dirección de email.
 
 ### 4.2 Crear Enlaces Simbólicos
@@ -182,7 +185,8 @@ En AWS, la interfaz pública es típicamente **eth0**. Usaremos **iptables** par
 ### 6.1 Habilitar IP Forwarding
 
 ```bash
-sudo sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/' /etc/sysctl.conf
+sudo nano /etc/sysctl.conf
+net.ipv4.ip_forward=1
 sudo sysctl -p
 ```
 
